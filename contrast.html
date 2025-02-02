@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valley - Eco</title>
+    <link rel="stylesheet" href="/styles/globals.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img src="/assets/valley_logo.svg" alt="Valley Logo"
+            /></a>
+          </li>
+          <li><a href="/index.html">VALLEY</a></li>
+          <li><a href="/eco.html">ECO</a></li>
+          <li><a href="/contrast.html">CONTRAST</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1>Contrast in<br /> de Stad</h1>
+        <p>Waar contrast de Valley <br /> in het licht zet</p>
+        <img src="./assets/Valley_cover_contrast.png" alt="Valley Preview" />
+      </header>
+      <main>
+
+        <h2>Visueel Contrast</h2>
+
+        <p>
+          Het dynamische ontwerp van De Valley maakt gebruik van organische vormen en natuurlijke materialen, wat het een uniek karakter geeft ten opzichte van zijn omgeving.         </p>
+
+        <button onclick="document.getElementById('plant_1').showModal()">
+          <img src="./assets/building_1.png" alt="building" />
+          <p>waarom heeft de omgeving weinig groen?<br />(Click me!)</p>
+        </button>
+        <dialog id="plant_1">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            
+            Veel gebouwen in de buurt zijn vóór 2000 gebouwd, toen duurzaamheid nog geen prioriteit was in architectuur.          </p>
+        </dialog>
+
+        <p>
+          Gelegen in het zakelijke district, vormt De Valley een levend contrast met de omringende spiegelende gevels. Het gebouw nodigt uit om de verschillende lagen te verkennen.        </p>
+
+        <button onclick="document.getElementById('plant_2').showModal()">
+          <img src="./assets/plant_5.png" alt="Plant" />
+          <p>Zijn er plannen om de buurt te vergroenen?</p>
+        </button>
+        <dialog id="plant_2">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Ja! Steeds meer projecten in de Zuidas implementeren groene daken en gevels om de ecologische voetafdruk te verkleinen.          </p>
+        </dialog>
+
+        <p>
+          De Valley fungeert als ontmoetingsplaats waar buurtbewoners samen kunnen komen. Dit versterkt de sociale cohesie in de wijk.
+        </p> 
+        <button onclick="document.getElementById('plant_3').showModal()">
+          <img src="./assets/building_2.png" alt="building" />
+          <p>Waarom zien veel omliggende gebouwen er identiek uit?</p>
+        </button>
+        <dialog id="plant_3">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Zakelijke architectuur is vaak gericht op efficiëntie en symmetrie, wat leidt tot een uniforme uitstraling zonder veel variatie.          </p>
+        </dialog>
+
+        <p>
+          De groene gevels van Valley koelen de omgeving af, terwijl betonnen en glazen gebouwen juist hitte vasthouden en de temperatuur verhogen.        </p>
+
+        <button onclick="document.getElementById('plant_4').showModal()">
+          <img src="/assets/plant_6.png" alt="Plant" />
+          <p>Is Valley de enige plek met groene
+            architectuur?</p>
+        </button>
+        <dialog id="plant_4">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Nee, Valley is niet de enige. Andere duurzame gebouwen in Amsterdam, zoals Bijlmerbajes, Circl en EDGE Amsterdam West, combineren ook groen en innovatieve architectuur.          </p>
+        </dialog>
+      </main>
+
+      <footer>
+        <p>Liwa van Ierssel - CMD - Hogeschool van Amsterdam</p>
+      </footer>
+    </div>
+  </body>
+</html>
