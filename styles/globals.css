@@ -34,8 +34,7 @@ nav > ul {
   list-style: none;
 }
 
-header
-{ padding-top: 64px;
+header { padding-top: 64px;
 }
 
 main {
@@ -94,6 +93,11 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+button > span {
+ display: block;
+ margin-top: 16px;
 }
 
 header > p {
