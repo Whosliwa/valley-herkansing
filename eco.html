@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valley - Eco</title>
-    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
   </head>
   <body>
     <div>
       <nav>
         <ul>
           <li>
-            <a href="/index.html"
-              ><img src="/assets/valley_logo.svg" alt="Valley Logo"
-            /></a>
+            <a href="./index.html">
+              <img src="./assets/valley_logo.svg" alt="Valley Logo"/>
+            </a>
           </li>
-          <li><a href="/index.html">VALLEY</a></li>
-          <li><a href="/eco.html">ECO</a></li>
-          <li><a href="contrast.html">CONTRAST</a></li>
+          <li><a href="./index.html">VALLEY</a></li>
+          <li><a href="./eco.html">ECO</a></li>
+          <li><a href="./contrast.html">CONTRAST</a></li>
         </ul>
       </nav>
       <header>
@@ -35,7 +35,7 @@
 
         <button onclick="document.getElementById('plant_1').showModal()">
           <img src="./assets/plant_eco_1.png" alt="Plant" />
-          <p>Tip 1: Kamerplanten<br />(Click me!)</p>
+          <span>Tip 1: Kamerplanten<br />(Click me!)</span>
         </button>
         <dialog id="plant_1">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -52,7 +52,7 @@
 
         <button onclick="document.getElementById('plant_2').showModal()">
           <img src="./assets/eco_led.png" alt="LED-verlichting" />
-          <p>Tip 2: LED verlichting</p>
+          <span>Tip 2: LED verlichting</span>
         </button>
         <dialog id="plant_2">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -66,8 +66,8 @@
         </p>
 
         <button onclick="document.getElementById('plant_3').showModal()">
-          <img src="./assets/eco compost.png" alt="compost" />
-          <p>Tip 3: Compost</p>
+          <img src="./assets/eco_compost.png" alt="compost" />
+          <span>Tip 3: Compost</span>
         </button>
         <dialog id="plant_3">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -82,7 +82,7 @@
 
         <button onclick="document.getElementById('plant_4').showModal()">
           <img src="./assets/eco_kraan.png" alt="Plant" />
-          <p>Tip 4: Waterbesparing</p>
+          <span>Tip 4: Waterbesparing</span>
         </button>
         <dialog id="plant_4">
           <button onclick="this.parentElement.close()">&times;</button>

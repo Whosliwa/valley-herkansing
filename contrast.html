@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valley - Eco</title>
-    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
   </head>
   <body>
     <div>
       <nav>
         <ul>
           <li>
-            <a href="/index.html"
-              ><img src="/assets/valley_logo.svg" alt="Valley Logo"
-            /></a>
+            <a href="./index.html">
+              <img src="./assets/valley_logo.svg" alt="Valley Logo"/>
+            </a>
           </li>
-          <li><a href="/index.html">VALLEY</a></li>
-          <li><a href="/eco.html">ECO</a></li>
-          <li><a href="/contrast.html">CONTRAST</a></li>
+          <li><a href="./index.html">VALLEY</a></li>
+          <li><a href="./eco.html">ECO</a></li>
+          <li><a href="./contrast.html">CONTRAST</a></li>
         </ul>
       </nav>
       <header>
@@ -34,7 +34,7 @@
 
         <button onclick="document.getElementById('plant_1').showModal()">
           <img src="./assets/building_1.png" alt="building" />
-          <p>waarom heeft de omgeving weinig groen?<br />(Click me!)</p>
+          <span>waarom heeft de omgeving weinig groen?<br />(Click me!)</span>
         </button>
         <dialog id="plant_1">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -48,7 +48,7 @@
 
         <button onclick="document.getElementById('plant_2').showModal()">
           <img src="./assets/plant_5.png" alt="Plant" />
-          <p>Zijn er plannen om de buurt te vergroenen?</p>
+          <span>Zijn er plannen om de buurt te vergroenen?</span>
         </button>
         <dialog id="plant_2">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -61,7 +61,7 @@
         </p> 
         <button onclick="document.getElementById('plant_3').showModal()">
           <img src="./assets/building_2.png" alt="building" />
-          <p>Waarom zien veel omliggende gebouwen er identiek uit?</p>
+          <span>Waarom zien veel omliggende gebouwen er identiek uit?</span>
         </button>
         <dialog id="plant_3">
           <button onclick="this.parentElement.close()">&times;</button>
@@ -73,9 +73,8 @@
           De groene gevels van Valley koelen de omgeving af, terwijl betonnen en glazen gebouwen juist hitte vasthouden en de temperatuur verhogen.        </p>
 
         <button onclick="document.getElementById('plant_4').showModal()">
-          <img src="/assets/plant_6.png" alt="Plant" />
-          <p>Is Valley de enige plek met groene
-            architectuur?</p>
+          <img src="./assets/plant_6.png" alt="Plant" />
+          <span>Is Valley de enige plek met groene architectuur?</span>
         </button>
         <dialog id="plant_4">
           <button onclick="this.parentElement.close()">&times;</button>
