@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valley</title>
+    <link rel="stylesheet" href="/styles/globals.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img src="/assets/valley_logo.svg" alt="Valley Logo"
+            /></a>
+          </li>
+          <li><a href="#">VALLEY</a></li>
+          <li><a href="#">ECO</a></li>
+          <li><a href="#">CONTRAST</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1>Valley<br />Amsterdam</h1>
+        <p>Waar natuur en architéctuur één worden + quiz vragen</p>
+        <img src="/assets/valley_cover_image.png" alt="Valley Preview" />
+      </header>
+      <main>
+        <dialog id="tutorial">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <img src="/assets/plant_1.png" alt="Click me plant" />
+          <h3>Interactief</h3>
+          <p>Klik op de planten om antwoorden op de vragen te zien</p>
+        </dialog>
+
+        <h2>Architectuur en<br />Duurzaamheid</h2>
+
+        <p>
+          Unieke architectuur gecombineerd met de nieuwste duurzame
+          technologieën maakt Valley tot een van de baanbrekende projecten in
+          Nederland. Daarnaast is staat de Valley ook bekend om zijn mooie
+          esthetiek.
+        </p>
+
+        <button onclick="document.getElementById('plant_1').showModal()">
+          <img src="/assets/plant_1.png" alt="Plant" />
+          <p>Waarom heet het valley?<br />(Click me!)</p>
+        </button>
+        <dialog id="plant_1">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Diepte en hoogte: De unieke architectuur is geïnspireerd op
+            natuurlijke valleien, waarbij de terrassen een visuele illusie van
+            diepte creëren.
+          </p>
+        </dialog>
+
+        <p>
+          De Valley is ontworpen door EDGE Technologies om een gezonde
+          leefomgeving te creëren in het gebouw en voor de stad, zo profiteert
+          de stad van de samensmelting van ervaring in vastgoed en technologie
+          en groen.
+        </p>
+
+        <button onclick="document.getElementById('plant_2').showModal()">
+          <img src="/assets/plant_2.png" alt="Plant" />
+          <p>Wat maakt Valley zo innovatief?</p>
+        </button>
+        <dialog id="plant_2">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Flexibel ontwerp: De verschillende hoogtes en terrassen zorgen
+            ervoor dat elk appartement uniek is en optimaal profiteert van licht
+            en uitzicht.
+          </p>
+        </dialog>
+
+        <p>
+          Valley draagt bij aan de gezondheid van mens en milieu met een
+          energieprestatiecoëfficiënt van -0,30 wat betekent dat het meer
+          energie opwekt dan verbruikt.Valley draagt bij aan de gezondheid van
+          mens en milieu met een energieprestatiecoëfficiënt van -0,30 wat
+          betekent dat het meer energie opwekt dan verbruikt.
+        </p>
+
+        <button onclick="document.getElementById('plant_3').showModal()">
+          <img src="/assets/plant_3.png" alt="Plant" />
+          <p>Hoe wordt regenwater gebruikt?</p>
+        </button>
+        <dialog id="plant_3">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Slim watermanagement: Opgevangen regenwater wordt gebruikt voor het
+            bewateren van de daktuinen en groene gevels.
+          </p>
+        </dialog>
+
+        <p>
+          Met talloze groene ruimtes en daken biedt De Valley een verfrissende
+          ontsnapping aan het stadsleven. Deze natuurlijke elementen verbeteren
+          niet alleen de esthetiek maar ook de leefkwaliteit.
+        </p>
+
+        <button onclick="document.getElementById('plant_4').showModal()">
+          <img src="/assets/plant_4.png" alt="Plant" />
+          <p>Waarom heeft de Valley zo veel glas?</p>
+        </button>
+        <dialog id="plant_4">
+          <button onclick="this.parentElement.close()">&times;</button>
+          <p>
+            Energiebesparend glas: Valley maakt gebruik van drievoudige
+            beglazing, wat helpt bij temperatuurregulatie en
+            energie-efficiëntie.
+          </p>
+        </dialog>
+      </main>
+
+      <footer>
+        <p>Liwa van Ierssel - CMD - Hogeschool van Amsterdam</p>
+      </footer>
+    </div>
+
+    <!-- Dialogen/modals zijn met online tutorial gemaakt -->
+    <!-- https://blog.hubspot.com/website/html-dialog -->
+    <!-- zoekterm: html dialog tutorial -->
+    <script>
+      document.getElementById('tutorial').showModal();
+    </script>
+  </body>
+</html>
